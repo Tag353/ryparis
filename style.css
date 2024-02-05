@@ -1,0 +1,381 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header CSS */
+header {
+    background-color: #ffa825;
+    color: #fff;
+    text-align: right;
+    padding: 30px;
+    position: relative;
+    font-style: bold;
+}
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 2%;
+    max-width: 300px;
+}
+button {
+    background-color: #ffa825;
+    padding: 8px 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    font-size: 20px;
+}
+.whiteline {
+    width: 100%;
+    background-color:#fff;
+    height: 5px;
+}
+/* First Page CSS */
+.first-panel {
+    display:flex;
+    padding-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+.first-panel-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+}
+#header1 {
+    background-color:#fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 50px;
+    padding:10px;
+    margin-top: 330px;
+}
+
+/* Second Page CSS */
+
+.second-panel {
+    background-color: #fff;
+    font-size: 30px;
+    padding: 0 10px;
+    margin-bottom: -100px;
+}
+
+#header2 {
+    font-weight:bold;
+    font-size: 50px;
+    padding:30px;
+    margin-bottom: 80px;
+}
+#paragraph2 {
+    padding-left:30px;
+    margin-top:-80px;
+}
+.second-panel-img {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item2 {
+    justify-content: space-evenly;
+    width:500px;
+    padding: 10px;
+}
+.secondpaneltext{
+    display:flex; 
+    justify-content: space-evenly;
+    margin-top:-10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.second-panel-img img{
+    height: 350px;
+    width: 100%;
+}
+
+/* Third Page CSS */
+.third-panel {
+    background-color: #c2e1ec;
+    font-size: 30px;
+    padding: 0px 30px;
+    padding-bottom: 200px;
+}
+#header3 {
+    font-weight:bold;
+    font-size: 50px;
+    padding: 30px;
+    margin: 100px 0px;
+}
+#paragraph3 {
+    padding-left:30px;
+    margin-top:-80px;
+}
+.third-panel-img {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item3 {
+    justify-content: space-evenly;
+    width: 400px;
+    height: 300px;
+}
+.third-panel-text{
+    display:flex; 
+    justify-content: space-evenly;
+    margin-top:-10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #fff;
+}
+.third-panel-img img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Fourth Page CSS */
+.fourth-panel {
+    background-color: #fff;
+    font-size: 30px;
+    padding: 0 10px;
+    margin-bottom: -100px;
+}
+
+#header4 {
+    font-weight:bold;
+    font-size: 50px;
+    padding:30px;
+    margin-bottom:80px;
+}
+#paragraph4 {
+    padding-left:30px;
+    margin-top:-80px;
+}
+.fourth-panel-img {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item4 {
+    justify-content: space-evenly;
+    width:450px;
+    height:350px;
+    padding:10px;
+    margin:10px 20px;
+}
+.fourth-panel-text{
+    display:flex; 
+    justify-content: space-evenly;
+    margin-top:-10px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+}
+.fourth-panel-img img{
+    width: 100%;
+    height: 100%;
+    padding:10px;
+    background-color: #c2e1ec;
+}
+
+/* footer CSS */
+footer {
+    margin-top:250px;
+    background-color: #ffa825;
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    padding-top:30px;
+    position: relative;
+    height: 80px;
+}
+.footerheader{
+    color: #000000;
+    margin: 5px;
+}
+.footerbuttons {
+    background-color: #ffa825;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/** RECIPE.HTML CSS **/
+
+/* Second Panel CSS */
+
+.rsecond-panel {
+    background-color: #dce3ec;
+    font-size: 30px;
+    padding: 0 30px;
+    margin-bottom: -100px;
+    height: 330px;
+}
+
+#rheader2 {
+    font-weight:bold;
+    font-size: 50px;
+    padding:30px;
+    margin-bottom: 80px;
+}
+#rparagraph2 {
+    display:flex;
+    flex-direction: column;
+    padding-left:30px;
+    margin-top:-80px;
+}
+#timerow1{
+    display:flex;
+    justify-content: flex-start;
+}
+
+#timerow2{
+    display:flex;
+    justify-content: flex-start;
+}
+.space {
+    padding:25px;
+    padding-right:200px;
+
+}
+
+#bold {
+    font-weight:bold;
+}
+
+/*** PANEL 3 ***/
+.rthird-panel {
+    margin-top:150px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#rheader3{
+    font-size: 50px;
+    font-weight:1000;
+    margin:0px;
+    margin-bottom:20px;
+}
+#iconrow1{
+    display:flex;
+    margin-bottom:20px;
+}
+.reviews{
+    padding: 0px 25px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+#iconrow2{
+    display:flex;
+}
+.saverecipebutton{
+    background: #c5380e;
+    padding: 10px 25px;
+    border-radius: 25px;
+    color:white;
+    font-weight:600;
+    font-size: 18px;
+
+}
+/* Stars and printer */
+.checked {
+    color:#c5380e;
+  }
+.printer {
+    padding: 0px 25px;
+    font-size: 50px;
+}
+
+/*** Fourth Panel ***/
+.rfourth-panel{
+    margin-top:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourptext{
+    font-weight:800;
+    font-size:26px;
+    padding: 25px 120px;
+    background-color: #e2e8eb;
+    color:#525e63
+}
+
+/** Fifth Panel **/
+.rfifth-panel {
+    display: flex;
+    justify-content: space-around;
+    padding:20px 80px;
+}
+.ingredients {
+    font-size:20px;
+    font-weight:500;
+}
+.ingredients ul {
+    margin-bottom: -10px;
+}
+#header5 {
+    font-size:28px;
+    font-weight:800;
+    padding-left:20px;
+}
+.spicemix {
+    margin-top:-20px;
+}
+#header6 {
+    font-size:18px;
+    font-weight:800;
+    padding-left:36px;
+}
+
+.directions {
+    font-size:20px;
+    font-weight:500;
+}
+.directions li {
+    padding-bottom: 20px;
+}
+#timing {
+    font-weight:600;
+}
+
+/** Video **/
+.panel6video {
+    display:flex;
+    justify-content: center;
+    padding:100px 100px;
+    background-color:#dce3ec
+}
+
+/** Footer **/
+/* footer CSS */
+.rfooter {
+    margin-top:0px;
+    background-color: #ffa825;
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    padding-top:30px;
+    position: relative;
+    height: 80px;
+}
+.rfooterheader{
+    color: #000000;
+    margin: 5px;
+}
+.rfooterbuttons {
+    background-color: #ffa825;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
